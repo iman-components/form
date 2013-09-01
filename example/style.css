@@ -1,0 +1,12 @@
+form {width: 600px;}
+.parent {position: relative;}
+.is-hidden { display: none;}
+.tip {background: #444;}
+.tip{-webkit-transition:opacity, margin, -webkit-transform;-moz-transition:opacity, margin, -moz-transform;transition:opacity, margin, transform;-webkit-transition-duration:0.2s;-moz-transition-duration:0.2s;-o-transition-duration:0.2s;transition-duration:0.2s;-webkit-transition-timing-function:cubic-bezier(0.42, 0, 0.58, 1);-moz-transition-timing-function:cubic-bezier(0.42, 0, 0.58, 1);-o-transition-timing-function:cubic-bezier(0.42, 0, 0.58, 1);transition-timing-function:cubic-bezier(0.42, 0, 0.58, 1);text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-box-sizing:border-box;box-sizing:border-box;position:absolute;z-index:10000;color:#fff;font-family:"Roboto",sans-serif;font-size:13px;line-height:18px;background:#333;border-radius:3px;padding:15px 15px}
+.tip ul{list-style-type:none;margin:10px 0 0 0;padding:0}
+.tip p{margin:10px 0 0 0}
+.tip p:first-child{margin-top:0}
+.tip:after{content:"";display:block;position:absolute}
+.tip.south.is-visible{margin-top:8px}
+.tip.south:after{width:0;height:0;border-style:solid;border-color:transparent;border-width:0 8px 8px 8px;border-bottom-color:#333;top:-8px;left:50%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);transform:translateX(-50%)}
+.no-csstransforms .tip.south:after{margin-left:-8px}

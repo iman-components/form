@@ -1,0 +1,15 @@
+{
+  "name": "form",
+  "dependencies": {
+    "nib-components/observable": "0.1.0",
+    "anthonyshort/view": "0.1.0",
+    "component/emitter": "1.0.0",
+    "nib-components/reactive": "*",
+    "nib-components/form-messages": "*",
+    "nib-components/form-messages-tip": "*",
+    "nib-components/object-validator": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}

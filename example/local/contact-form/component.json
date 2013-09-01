@@ -1,0 +1,19 @@
+{
+  "name": "contact-form",
+  "description": "Contact form with validation",
+  "dependencies": {
+    "nib-components/validation-methods": "*",
+    "nib-components/custom-validation": "*"
+  },
+  "development": {},
+  "paths": [
+    "../"
+  ],
+  "local": [
+    "form"
+  ],
+  "scripts": [
+    "index.js",
+    "lib/rules.js"
+  ]
+}

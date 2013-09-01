@@ -1,0 +1,12 @@
+{
+  "name": "components",
+  "paths": [
+    "./local"
+  ],
+  "local": [
+    "contact-form"
+  ],
+  "main": "",
+  "scripts": [],
+  "dependencies": {}
+}
